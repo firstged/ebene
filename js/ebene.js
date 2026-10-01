@@ -61,8 +61,11 @@
       inner.style.transitionDelay = (i * 0.026).toFixed(3) + "s";
       var a = document.createElement("span");
       var b = document.createElement("span");
-      a.textContent = ch;
-      b.textContent = ch;
+      // Une espace ordinaire s'effondre dans une cellule inline-block en
+      // overflow:hidden — « Voir la collection » deviendrait « Voirlacollection ».
+      var glyph = ch === " " ? " " : ch;
+      a.textContent = glyph;
+      b.textContent = glyph;
       b.setAttribute("aria-hidden", "true");
       inner.appendChild(a);
       inner.appendChild(b);
