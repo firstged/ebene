@@ -637,7 +637,7 @@ body.menu-open .menu-lines i:nth-child(2) { top: 5px; transform: rotate(-45deg);
   background: var(--ink);
   border-radius: 4px 4px 0 0;
 }
-.pcard-mix { background: linear-gradient(160deg, var(--c2) 0 33%, var(--soleil) 33% 66%, var(--manioc) 66%); }
+.pcard-mix { background: linear-gradient(152deg, var(--c2) 8%, var(--soleil) 42%, var(--laterite) 68%, var(--manioc) 96%); }
 .pcard:hover .pcard-soap { transform: rotate(-7deg) scale(1.1); box-shadow: 5px 6px 0 rgba(59, 42, 23, .3); }
 
 .pcard h3 {
@@ -679,7 +679,7 @@ body.menu-open .menu-lines i:nth-child(2) { top: 5px; transform: rotate(-45deg);
   transition: color .5s var(--ease), opacity .5s var(--ease);
 }
 .pcard:hover .pcard-fmt { color: var(--on); opacity: .8; }
-.pcard-px { font-family: var(--display); font-weight: 700; font-size: 25px; }
+.pcard-px { font-family: var(--display); font-weight: 700; font-size: 25px; white-space: nowrap; }
 
 /* Bouton : la couleur claire envahit le bouton, le texte s'inverse */
 .pcard-go {
