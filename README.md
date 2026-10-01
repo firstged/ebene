@@ -30,8 +30,8 @@ Le site convainc, la transaction se fait par message et mobile money.
   en version pleine et au trait.
 - **Effet de remplacement** — chaque lettre doublée dans une fenêtre qui
   glisse, décalage de 26 ms par lettre.
-- **Illustrations botaniques** — gingembre, moringa, citron, ndolé, coco,
-  amande, tracées au trait, révélées au survol des cartes.
+- **Illustrations botaniques** — gingembre, moringa, papaye, ndolé, coco,
+  maningu, citron, tracées au trait, révélées au survol des cartes.
 - **Vagues de séparation** — huit tracés SVG distincts, aucun répété.
 - **Le jeu** — tranche les savons. Physique, collision segment/cercle,
   découpe en deux moitiés, le tout en canvas pur.
